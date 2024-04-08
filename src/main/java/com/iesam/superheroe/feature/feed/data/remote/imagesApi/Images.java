@@ -1,4 +1,4 @@
-package org.superheroe.data.remote.imagesApi;
+package com.iesam.superheroe.feature.feed.data.remote.imagesApi;
 
 public class Images {
     public final String xs;

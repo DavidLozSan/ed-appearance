@@ -1,4 +1,4 @@
-package org.superheroe.data.remote.powerstatsApi;
+package com.iesam.superheroe.feature.feed.data.remote.powerstatsApi;
 
 public class Powerstats {
     public final Integer intelligence;

@@ -1,14 +1,17 @@
-package org.superheroe.data.remote.idApi;
+package com.iesam.superheroe.feature.feed.data.remote.idApi;
 
-import org.superheroe.data.remote.appearanceApi.Appearance;
-import org.superheroe.data.remote.biographyApi.Biography;
-import org.superheroe.data.remote.connectionsApi.Connections;
-import org.superheroe.data.remote.imagesApi.Images;
-import org.superheroe.data.remote.powerstatsApi.Powerstats;
-import org.superheroe.data.remote.workApi.Work;
+import com.google.gson.annotations.SerializedName;
+import com.iesam.superheroe.feature.feed.data.remote.imagesApi.Images;
+import com.iesam.superheroe.feature.feed.data.remote.workApi.Work;
+import com.iesam.superheroe.feature.feed.data.remote.appearanceApi.Appearance;
+import com.iesam.superheroe.feature.feed.data.remote.biographyApi.Biography;
+import com.iesam.superheroe.feature.feed.data.remote.connectionsApi.Connections;
+import com.iesam.superheroe.feature.feed.data.remote.powerstatsApi.Powerstats;
 
 public class Id {
+    @SerializedName("id")
     public final Integer id;
+    @SerializedName("name")
     public final String name;
     public final String slug;
     public final Powerstats powerstats;

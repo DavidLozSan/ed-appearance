@@ -1,4 +1,4 @@
-package org.superheroe.data.remote.workApi;
+package com.iesam.superheroe.feature.feed.data.remote.workApi;
 
 public class Work {
     public final String occupation;

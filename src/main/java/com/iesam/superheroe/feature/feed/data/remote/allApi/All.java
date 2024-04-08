@@ -1,6 +1,6 @@
-package org.superheroe.data.remote.allApi;
+package com.iesam.superheroe.feature.feed.data.remote.allApi;
 
-import org.superheroe.data.remote.idApi.Id;
+import com.iesam.superheroe.feature.feed.data.remote.idApi.Id;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package org.superheroe.data.remote.appearanceApi;
+package com.iesam.superheroe.feature.feed.data.remote.appearanceApi;
 import java.util.List;
 public class Appearance {
     public final String gender;

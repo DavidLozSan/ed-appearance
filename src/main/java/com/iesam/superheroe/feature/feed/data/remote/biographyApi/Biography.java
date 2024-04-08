@@ -1,4 +1,4 @@
-package org.superheroe.data.remote.biographyApi;
+package com.iesam.superheroe.feature.feed.data.remote.biographyApi;
 import java.util.List;
 public class Biography {
     public final String fullName;

@@ -1,4 +1,4 @@
-package org.superheroe.data.remote.connectionsApi;
+package com.iesam.superheroe.feature.feed.data.remote.connectionsApi;
 
 public class Connections {
     public final String groipAffiliation;
