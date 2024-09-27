@@ -1,4 +1,4 @@
-package org.example;
+package com.iesam.superheroe;
 
 public class Main {
     public static void main(String[] args) {
